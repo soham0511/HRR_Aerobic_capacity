@@ -1,0 +1,25 @@
+# --- Data: not redistributed (PhysioNet Contributor Review Health Data License 1.5.0) ---
+# Download from https://physionet.org/content/treadmill-exercise-cardioresp/1.0.1/
+# and regenerate derived files with `python src/prep.py`.
+data/*.csv
+data/practice/
+data/processed/
+# per-test (participant-level) derived outputs — regenerate locally
+outputs/audit/phase_flags.csv
+outputs/project1/tables/exclusion_log.csv
+
+# --- Personal practice work (Excel test runs etc.) ---
+practice/
+
+# --- Python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+~$*
+.vscode/

@@ -1,0 +1,5 @@
+﻿step,excluded,tests,participants
+All tests in dataset,0,992,857
+No VO2 data recorded,11,981,846
+End-exercise HR signal loss (artefact rule),84,897,786
+No HR within ±10 s of 60 s recovery,1,896,785

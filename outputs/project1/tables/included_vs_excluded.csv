@@ -1,0 +1,6 @@
+﻿variable,included_mean,excluded_mean,mannwhitney_p
+Age,29.095,27.901,0.309
+BMI,23.878,23.99,0.864
+female,0.146,0.188,0.282
+peak_speed_kmh,16.259,16.267,0.861
+t_end_s,893.31,884.938,0.719

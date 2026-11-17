@@ -1,0 +1,21 @@
+﻿Characteristic,Overall,Male,Female
+"Tests, n",896,765,131
+"Participants, n",785,670,115
+"Adults ≥18 y, n (%)",767 (86%),660 (86%),107 (82%)
+"Ramp protocol, n (%)",592 (66%),499 (65%),93 (71%)
+"Active recovery, n (%)",889 (99%),761 (99%),128 (98%)
+"Age (years), mean ± SD",29.1 ± 10.1,29.6 ± 10.3,26.4 ± 8.9
+"Height (cm), mean ± SD",175.0 ± 7.9,176.3 ± 6.8,167.1 ± 8.7
+"Body mass (kg), mean ± SD",73.4 ± 11.9,75.2 ± 11.1,62.7 ± 10.8
+"BMI (kg/m²), median [IQR]",23.7 [22.1–25.3],23.9 [22.5–25.5],22.2 [20.8–24.0]
+"Peak VO2 (mL·kg⁻¹·min⁻¹), mean ± SD",47.4 ± 8.8,48.7 ± 8.5,39.8 ± 6.7
+"Peak VO2 (L/min), mean ± SD",3.45 ± 0.73,3.62 ± 0.63,2.48 ± 0.52
+"RER at peak VO2, median [IQR]",1.12 [1.06–1.19],1.12 [1.06–1.19],1.11 [1.05–1.16]
+"Peak HR (bpm), mean ± SD",186.7 ± 10.6,186.8 ± 10.6,186.3 ± 10.5
+"Peak HR (% age-predicted), mean ± SD",97.9 ± 5.1,98.2 ± 5.1,96.3 ± 4.4
+"HR at end exercise (bpm), mean ± SD",183.6 ± 11.5,183.7 ± 11.5,182.7 ± 11.9
+"HRR60 (bpm), mean ± SD",29.0 ± 11.0,29.8 ± 10.9,24.2 ± 10.5
+"HRR120 (bpm), mean ± SD",50.9 ± 12.4,51.8 ± 12.2,45.6 ± 12.4
+"HRR180 (bpm), mean ± SD",60.4 ± 11.9,61.3 ± 11.4,55.4 ± 13.1
+"Exercise duration (s), mean ± SD",893 ± 179,919 ± 168,742 ± 169
+"Peak treadmill speed (km/h), mean ± SD",16.3 ± 2.5,16.7 ± 2.4,14.0 ± 1.9

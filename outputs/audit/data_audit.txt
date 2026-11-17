@@ -1,0 +1,58 @@
+DATA AUDIT — PhysioNet treadmill-exercise-cardioresp v1.0.1
+======================================================================
+subject-info.csv : 992 rows x 8 cols
+test_measure.csv : 575087 rows x 9 cols
+subject columns  : ['Age', 'Weight', 'Height', 'Humidity', 'Temperature', 'Sex', 'ID', 'ID_test']
+measure columns  : ['time', 'Speed', 'HR', 'VO2', 'VCO2', 'RR', 'VE', 'ID_test', 'ID']
+unique participants (ID)      : 857
+unique tests (ID_test) meta   : 992
+unique tests in measurements  : 992
+duplicate ID_test in metadata : 0
+tests in measures w/o metadata: 0
+tests in metadata w/o measures: 0
+tests per participant: 1 test=741, 2+=116, max=5
+sex coding counts (0=male, 1=female): {0: 843, 1: 149}
+
+Metadata ranges:
+             count    mean    std    min    25%    50%     75%    max
+Age          992.0   28.98  10.08   10.8   21.1   27.1   36.32   63.0
+Weight       992.0   73.38  12.01   41.0   66.0   73.0   80.22  135.0
+Height       992.0  174.91   7.95  150.0  170.0  175.0  180.00  203.0
+Humidity     962.0   48.21   8.56   23.7   42.0   47.0   54.00   69.0
+Temperature  962.0   22.82   2.78   15.0   20.8   22.9   24.40   32.3
+Sex          992.0    0.15   0.36    0.0    0.0    0.0    0.00    1.0
+
+Metadata missing (n):
+Age             0
+Weight          0
+Height          0
+Humidity       30
+Temperature    30
+Sex             0
+ID              0
+ID_test         0
+
+Breath-level ranges (raw):
+          count    mean     std   min     25%     50%     75%     max
+time   575087.0   628.1   325.6   0.0   375.0   646.0   875.0  1712.0
+Speed  575087.0     9.6     4.5   0.0     5.0     9.0    13.4    23.1
+HR     574106.0   146.9    32.2   0.0   123.0   153.0   174.0   226.0
+VO2    570216.0  2313.6   978.1  -5.0  1464.0  2309.0  3060.0  6217.0
+VCO2   570216.0  2390.1  1159.8  51.0  1455.0  2320.0  3218.0  7566.0
+RR     575087.0    36.5    12.2   2.0    27.0    36.0    44.0   113.0
+VE     575087.0    69.3    33.6   1.8    42.2    66.3    92.0   207.1
+
+Breath-level missing (n rows):
+time          0
+Speed         0
+HR          981
+VO2        4871
+VCO2       4871
+RR            0
+VE            0
+ID_test       0
+ID            0
+
+repeated timestamps (same second within a test): 3021 rows; backward steps: 0
+HR <= 0 rows: 1; VO2 <= 0 rows: 1
+tests with no VO2 data at all: 11 (PhysioNet page states 30; discrepancy noted)
