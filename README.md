@@ -1,3 +1,5 @@
+<img width="1972" height="1598" alt="fig4_forest_adjusted_estimates" src="https://github.com/user-attachments/assets/dd14a557-c659-401e-adba-f7e1107bb683" />
+
 # Sports Science Research Starter Pack
 
 Two portfolio projects using the University of Malaga Treadmill Maximal Exercise Tests dataset (PhysioNet, version 1.0.1).
